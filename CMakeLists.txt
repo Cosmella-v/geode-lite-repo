@@ -13,7 +13,7 @@ if (GEODE_BUILDING_DOCS)
 	set(GEODE_DONT_BUILD_TEST_MODS ON)
 endif()
 
-option(GEODE_USE_BREAKPAD "Enables the use of the Breakpad library for crash dumps." ON)
+option(GEODE_USE_BREAKPAD "Enables the use of the Breakpad library for crash dumps." OFF)
 
 # Check if git is installed, raise a fatal error if not
 find_program(GIT_EXECUTABLE git)
